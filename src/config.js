@@ -5,8 +5,8 @@ console.log('Env = ', process.env.NODE_ENV)
 
 export const Config = {
     DataSource: {
-        THORNodeURL: 'https://thornode.ninerealms.com',
-        MidgardURL: 'https://midgard.ninerealms.com',
+        THORNodeURL: 'https://gateway.liquify.com/chain/thorchain_api',
+        MidgardURL: 'https://gateway.liquify.com/chain/thorchain_midgard',
 
         Nodes: {
             PollPeriod: 3000.0, // msec
